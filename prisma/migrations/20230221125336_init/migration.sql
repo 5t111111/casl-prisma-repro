@@ -17,3 +17,6 @@ CREATE TABLE "Post" (
 
 -- CreateIndex
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Post_title_key" ON "Post"("title");
